@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, span{
+    padding: .5rem 0;
+}
+
+
+
+a:link,
+a:active,
+a:visited,
+a:hover{
+    color: inherit;
+}
+
+input, button, submit { 
+    border:none; 
+    outline: none;
+} 
+
+img{
+    width: 100%;
+
+}
+
+
+li, button{
+    cursor: pointer;
+    margin: 0;
+}

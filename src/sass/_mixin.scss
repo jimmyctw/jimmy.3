@@ -1,0 +1,19 @@
+@mixin flexR{
+    display: flex;
+    flex-direction: row;
+}
+@mixin flexC{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@mixin flexCenter{
+    align-items: center;
+    justify-content: center;
+} 
+@mixin image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
